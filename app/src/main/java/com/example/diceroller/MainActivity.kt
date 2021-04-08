@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun rollDice() {
         val drawableResource = when(Random.nextInt(6) + 1) {
             1 -> R.drawable.dice_1
